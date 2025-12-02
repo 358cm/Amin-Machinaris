@@ -8,6 +8,7 @@ import Layout from './components/Layout';
 import ProtectedRoute from './components/ProtectedRoute';
 
 // Pages
+import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -23,7 +24,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
+            <Route index element={<Dashboard />} />
+            <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="products" element={<Products />} />
             <Route path="products/:id" element={<ProductDetail />} />
