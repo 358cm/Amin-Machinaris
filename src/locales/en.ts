@@ -67,5 +67,34 @@ export default {
     rights: 'All Rights Reserved',
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service'
+  },
+  dashboard: {
+    title: 'Welcome to Amin Machinaris Hub',
+    subtitle: 'Access all features and services in one place. Manage your business efficiently.',
+    stats: {
+      sections: 'Total Sections',
+      features: 'Active Features',
+      languages: 'Languages Supported'
+    },
+    sections: {
+      home: 'Home',
+      homeDesc: 'Explore our homepage with featured products and company information.',
+      products: 'Products',
+      productsDesc: 'Browse and manage our comprehensive product catalog.',
+      services: 'Services',
+      servicesDesc: 'Discover our professional services and support offerings.',
+      invoicing: 'Invoicing',
+      invoicingDesc: 'Professional invoicing and billing management system.',
+      invoiceDemo: 'Invoice Demo',
+      invoiceDemoDesc: 'Explore the advanced invoice management features.',
+      about: 'About Us',
+      aboutDesc: 'Learn more about Amin Machinaris and our company history.',
+      contact: 'Contact',
+      contactDesc: 'Get in touch with our team for inquiries and support.'
+    },
+    action: {
+      explore: 'Explore'
+    },
+    footer: 'Select any section above to navigate through the application. All features are designed to provide you with a seamless experience.'
   }
 };

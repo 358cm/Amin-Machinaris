@@ -91,7 +91,8 @@ const Header: React.FC = () => {
   };
 
   const navItems = [
-    { to: '/', text: t('navigation.home') },
+    { to: '/', text: 'Hub' },
+    { to: '/home', text: t('navigation.home') },
     { to: '/about', text: t('navigation.about') },
     { to: '/products', text: t('navigation.products') },
     { to: '/services', text: t('navigation.services') },
